@@ -4,13 +4,19 @@ import viteLogo from "./assets/vite.svg";
 import heroImg from "./assets/hero.png";
 import "./App.css";
 import Blog from "./components/Blog";
+import Start from "./animation/Start";
+import GsapAnimation from "./animation/GsapAnimation";
+import GsapTimeline from "./animation/GsapTimeline";
 
 function App() {
 	const [count, setCount] = useState(0);
 
 	return (
 		<>
-			<Blog />
+			{/* <Blog /> */}
+			{/* <Start /> */}
+			{/* <GsapAnimation /> */}
+			<GsapTimeline />
 		</>
 	);
 }
