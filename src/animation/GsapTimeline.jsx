@@ -57,7 +57,7 @@ const GsapTimeline = () => {
 
 	// overflow-hidden para que la pantall no se desborde cuando la caja se mueva
 	return (
-		<div className="w-screen h-screen bg-stone-900 flex justify-center items-center overflow-hidden relative">
+		<div className="w-screen h-screen bg-stone-900 flex justify-center items-center overflow-hidden relative ">
 			<div className="flex flex-col gap-4">
 				<div className="flex justify-center items-center size-30 rounded-md bg-blue-500 blue"></div>
 				<div className="flex justify-center items-center size-30 rounded-md bg-green-500 green"></div>
